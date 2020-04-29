@@ -1,0 +1,9 @@
+---
+PreCommit:
+  TrailingWhitespace:
+    enabled: true
+  YamlLint:
+    enabled: true
+CommitMsg:
+  HardTabs:
+    enabled: true
