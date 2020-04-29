@@ -3,6 +3,7 @@ extends: default
 ignore: |
   .terraform
   .direnv
+  .kitchen
 rules:
   line-length:
     max: 120

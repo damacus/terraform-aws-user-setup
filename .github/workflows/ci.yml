@@ -11,11 +11,11 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-    - name: Check out code
-      uses: actions/checkout@master
-    - name: Lint Terraform
-      uses: actionshub/terraform-lint@master
-    - name: Run mdl
-      uses: actionshub/markdownlint@master
-    - name: Run yamllint
-      uses: actionshub/yamllint@master
+      - name: Check out code
+        uses: actions/checkout@master
+      - name: Lint Terraform
+        uses: actionshub/terraform-lint@master
+      - name: Run mdl
+        uses: actionshub/markdownlint@master
+      - name: Run yamllint
+        uses: actionshub/yamllint@master
