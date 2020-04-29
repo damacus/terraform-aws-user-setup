@@ -1,0 +1,19 @@
+{
+  "search.exclude": {
+    "**/.direnv": true
+  },
+  "files.exclude": {
+    "**/.envrc": true,
+    "**/.git*": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.vscode": true,
+    "**/.direnv": true,
+    "**/.kitchen": true,
+    "**/.terraform": true,
+    "**/terraform.tfstate.d": true,
+    "terraform.tfstate*": true
+  }
+}

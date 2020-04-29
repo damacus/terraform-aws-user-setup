@@ -1,0 +1,31 @@
+---
+name: lint
+
+'on':
+  pull_request:
+  push:
+    branches:
+      - master
+
+jobs:
+  terraform:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@master
+      - name: Lint Terraform
+        uses: actionshub/terraform-lint@master
+  markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@master
+      - name: Run mdl
+        uses: actionshub/markdownlint@master
+  yaml:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@master
+      - name: Run yamllint
+        uses: actionshub/yamllint@master
