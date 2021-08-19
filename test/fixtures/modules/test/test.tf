@@ -5,9 +5,5 @@ module "users" {
 }
 
 provider "aws" {
-  region = var.region
-}
-
-variable "region" {
-  default = "eu-west-1"
+  region = "eu-west-1"
 }

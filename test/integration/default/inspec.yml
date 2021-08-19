@@ -7,4 +7,4 @@ summary: Verify users are setup correctly
 version: 0.0.1
 depends:
   - name: inspec-aws
-    url: https://github.com/inspec/inspec-aws/archive/v1.10.0.tar.gz
+    url: https://github.com/inspec/inspec-aws/archive/v1.59.0.tar.gz
